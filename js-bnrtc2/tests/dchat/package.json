@@ -1,0 +1,12 @@
+{
+  "name": "@bfchain/bnrtc2-test-dchat",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dchat:node1": "ts-node ./test.ts",
+	  "dchat:node2": "ts-node ./test.ts"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Bnrtcv2",
+  "host": "0.0.0.0",
+  "port": 19020,
+  "servicePort": 19021,
+  "bnrtc1StunPort": 19001,
+  "bnrtc1TurnPort": 19001,
+  "disableTurnServer": true,
+  "disableStunServer": true,
+  "dwebPort": 19822,
+  "debugModules": [],
+  "peers": ["127.0.0.1:19021"],
+  "batch": {
+    "startHttpPort": 20000,
+    "startServicePort": 30000,
+    "disableTurnServer": true,
+    "disableStunServer": true,
+    "peersNum": 1,
+    "batchNum": 400,
+    "waitTime": "50ms"
+  }
+}

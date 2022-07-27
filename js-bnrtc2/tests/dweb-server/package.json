@@ -1,0 +1,13 @@
+{
+  "name": "@bfchain/bnrtc2-test-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dweb:node": "ts-node ./nodejs/bnrtcStaticServer.ts",
+    "dweb:web": "cd ./web && parcel index.html",
+    "dweb:download": "cd ./web && parcel download.html"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}

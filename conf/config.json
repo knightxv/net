@@ -1,0 +1,20 @@
+{
+    "name": "Bnrtcv2-Top",
+    "host": "0.0.0.0",
+    "port": 19020,
+    "servicePort": 19021,
+    "disableTurnServer": true,
+    "disableStunServer": true,
+    "defaultStunUrls": [],
+    "defaultTurnUrls": [],
+    "forceTopNetwork": true,
+    "peers": [
+        "127.0.0.1:19021"
+    ],
+    "addresses": ["Nz348hi3k14ndLDkvqJfNaP3RSueKaa1c"],
+    "services" : {
+        "dchat": {
+            "enabled": true
+        }
+    }
+}

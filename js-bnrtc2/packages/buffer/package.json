@@ -1,0 +1,19 @@
+{
+  "name": "@bfchain/bnrtc2-buffer",
+  "version": "2.0.11",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@bfchain/bnrtc2-buffer-typings": "^2.0.11",
+    "@bfchain/util-encoding-utf8": "^0.0.1-alpha.4"
+  },
+  "files": [
+    "build"
+  ]
+}

@@ -1,0 +1,16 @@
+*-sources.jar
+*.aar
+*.exe
+.idea
+*/.bfsp
+*/node_modules
+.bfsp
+node_modules
+/tsconfig.json
+.cache
+dist
+*.exe~
+/bnrtc
+.parcel-cache
+bnrtcv2/broadcast/*.html
+bnrtcv2/broadcast/*.txt

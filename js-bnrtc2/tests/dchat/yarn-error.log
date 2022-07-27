@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js dchat:node1
+
+PATH: 
+  C:\Program Files\VanDyke Software\Clients\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Go\bin;C:\Users\BFChainer\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Python27;C:\Users\BFChainer\AppData\Local\Microsoft\WindowsApps;C:\Users\BFChainer\AppData\Local\Pandoc\;D:\Graphviz\bin;"C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jdk-15.0.1\jre\bin";C:\Program Files (x86)\Nmap;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\JetBrains\GoLand 2021.1.3\bin;C:\Users\BFChainer\AppData\Local\Android\Sdk;C:\Users\BFChainer\AppData\Local\Android\Sdk\ndk\22.1.7171670;C:\Users\BFChainer\AppData\Local\Android\Sdk\platform-tools;C:\Users\BFChainer\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\BFChainer\AppData\Roaming\npm;C:\Users\BFChainer\go\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\Work\bnrtc\js-bnrtc2\tests\dchat\package.json: Unexpected token } in JSON at position 179
+      at JSON.parse (<anonymous>)
+      at C:\Users\BFChainer\AppData\Roaming\nvm\v16.9.1\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\BFChainer\AppData\Roaming\nvm\v16.9.1\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\BFChainer\AppData\Roaming\nvm\v16.9.1\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@bfchain/bnrtc2-test-dchat",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+      "dchat:node1": "ts-node ./test.ts",
+  	"dchat:node1": "ts-node ./test.ts",
+  
+    },
+    "devDependencies": {
+      "babel-polyfill": "^6.26.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

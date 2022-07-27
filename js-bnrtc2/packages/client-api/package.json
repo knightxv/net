@@ -1,0 +1,20 @@
+{
+  "name": "@bfchain/bnrtc2-client-api",
+  "version": "2.0.11",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@bfchain/bnrtc2-client-typings": "^2.0.11",
+    "@bfchain/util-extends-map": "^0.0.1-alpha.4",
+    "@bfchain/util-extends-promise": "^0.0.1-alpha.4",
+    "@bfcs/util-evt": "^0.0.1-alpha.2"
+  },
+  "files": [
+    "build"
+  ]
+}

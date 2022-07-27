@@ -1,0 +1,36 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build:all",
+      "detail": "build bnrtc2 for all platform",
+      "type": "shell",
+      "group": "build",
+      "command": "./build.ps1 ${input:version}"
+    },
+    {
+      "label": "build",
+      "detail": "build bnrtc2 for specific platform",
+      "type": "shell",
+      "group": "build",
+      "command": "./build.ps1 ${input:version} amd64 ${input:os}"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "version",
+      "description": "bnrtc2 version e.g: v1.0",
+      "type": "promptString",
+      "default": "v1.0"
+    },
+    {
+      "id": "os",
+      "description": "bnrtc2 os ",
+      "type": "pickString",
+      "options": ["windows", "linux", "android"],
+      "default": "windows"
+    }
+  ]
+}

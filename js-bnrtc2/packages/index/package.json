@@ -1,0 +1,21 @@
+{
+  "name": "@bfchain/bnrtc2",
+  "version": "2.0.11",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@bfchain/bnrtc2-buffer": "^2.0.11",
+    "@bfchain/bnrtc2-client": "^2.0.11",
+    "@bfchain/bnrtc2-dchat": "^2.0.11",
+    "@bfchain/bnrtc2-dweb": "^2.0.11",
+    "@bfchain/bnrtc2-service": "^2.0.11"
+  },
+  "files": [
+    "build"
+  ]
+}

@@ -1,0 +1,1 @@
+zx ./bind-v1.mjs

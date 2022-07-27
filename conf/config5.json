@@ -1,0 +1,15 @@
+{
+    "name": "Bnrtcv2-Client4",
+	"host": "0.0.0.0",
+    "port": 20001,
+    "servicePort": 19421,
+    "bnrtc1StunPort": 19001,
+	"bnrtc1TurnPort": 19001,
+    "disableTurnServer": true,
+    "disableStunServer": true,
+    "defaultStunUrls": [],
+    "defaultTurnUrls": [],
+    "peers": [
+        "127.0.0.1:19021"
+    ]
+}

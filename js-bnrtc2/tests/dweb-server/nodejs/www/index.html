@@ -1,0 +1,26 @@
+<html>
+<style>
+.h1{
+	color: green;
+	font-size: 250px;
+	text-align: center;
+}
+</style>
+<script type="text/javascript">
+
+window.onload=function()
+{
+	var h2=document.getElementById('h2');
+	setInterval(function(){
+		var r=Math.floor(255*Math.random());
+		var g=Math.floor(255*Math.random());
+		var b=Math.floor(255*Math.random());
+		h2.style.color="rgb("+r+","+g+","+b+")";
+		h2.style.fontSize='250px';
+		h2.style.textAlign='center';
+	},1000);
+};
+
+</script>
+<h1 class="h1" id="h2">hello world</h1>
+</html>

@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "tsconfig.json": true
+  },
+  "go.lintTool": "golangci-lint"
+}
